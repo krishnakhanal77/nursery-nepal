@@ -1,0 +1,65 @@
+.slider-container {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  position: relative;
+
+  .slides {
+    height: 500px;
+    width: 1326px;
+    background-color: #D0E5E0;
+  }
+
+  .slider-text {
+    margin: 105px 0px 0px 113px;
+    width: 576px;
+
+    h5 {
+      font-family: $poppins-font;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 84px;
+      margin: 0px;
+
+      span {
+        color: $primary-color;
+      }
+    }
+
+    .slider-sub-heading {
+      font-weight: 600;
+      font-size: 24px;
+      color: default-text-color;
+    }
+
+    p {
+      font-family: $inter-font;
+      font-weight: 400;
+      font-size: 15px;
+      color: #383738;
+    }
+
+    .banner-btn {
+      height: 47px;
+      width: 149px;
+      padding: 13px, 41px, 13px, 41px;
+      border-radius: 0 !important;
+    }
+  }
+
+  .slider-image {
+    height: 358px;
+    width: 422px;
+    position: absolute;
+    top: 71px;
+    left: 22.7%;
+  }
+}
+
+.slick-dots {
+  bottom: 25px !important;
+  font-size: 18px !important;
+
+  li button:before {
+    font-size: 10px !important;
+  }
+}

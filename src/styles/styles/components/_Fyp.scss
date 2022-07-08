@@ -1,0 +1,43 @@
+.item-card {
+  border: 1px solid #0000001a;
+}
+.item-card__container__imagecontainer {
+  position: absolute;
+  margin-top: 20px;
+}
+.item-card__container__imagecontainer__brand {
+  position: relative;
+  width: 38px;
+  height: 35.55px;
+}
+.container__image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.container__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #101113;
+}
+.container__shop {
+  font-family: $inter-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+}
+.container__price {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 3px;
+  line-height: 19px;
+
+  color: #101113;
+}

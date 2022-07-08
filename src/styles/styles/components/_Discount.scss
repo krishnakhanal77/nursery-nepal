@@ -1,0 +1,25 @@
+.discount-page {
+  height: 150px;
+}
+.discount-page__info {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  height: 146px;
+  background: linear-gradient(
+    90deg,
+    #e2e2e2 0%,
+    rgba(226, 226, 226, 0.45) 100%
+  );
+}
+.discount-page__info__button {
+  width: 88px;
+  height: 30px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 20px;
+  border: none;
+
+  background: #ffffff;
+}

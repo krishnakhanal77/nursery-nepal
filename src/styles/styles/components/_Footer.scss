@@ -1,0 +1,124 @@
+.footer {
+  background-color: $footer-primary;
+  color: $footer-text-color;
+
+  .footer-container {
+    margin-top: 4rem;
+    padding-top: 5rem;
+
+    .topFooterSection {
+      border-radius: 4px;
+      border: 2px solid #FA4DA3;
+      padding: 50px 80px 50px 80px;
+
+      span {
+        font: $poppins-font;
+      }
+    }
+  }
+
+}
+
+.topFooterText {
+  h5 {
+    font-family: $poppins-font;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  span {
+    font-family: $poppins-font;
+    font-size: 14px;
+    font-weight: 500;
+    color: $footer-text-color;
+  }
+}
+
+.footerEmailForm{
+  position: relative !important;
+
+  .footer-form {
+    background-color: #0C0C0C !important;
+    border: none !important;
+    color: $footer-text-color  !important;
+    height: 54px !important;
+    width: 451px !important;
+    border-radius: 4px !important;
+    margin-left: 3rem !important;
+
+  }
+
+  .footer-btn {
+    position: absolute;
+    right: 15%;
+    color: #F44CA4 !important;
+  }
+}
+
+
+.footer-text {
+  h3 {
+    font-family: $poppins-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  span {
+    font-family: $poppins-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: $footer-text-color;
+    text-decoration: none;
+  }
+}
+
+.footer-topics {
+  font-family: $poppins-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  margin: 1.5rem 0 0 0;
+}
+
+.footer-links {
+  a {
+    font-family: $poppins-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: $footer-text-color;
+    text-decoration: none;
+  }
+}
+
+.bottom-footer {
+  height: 61px;
+  width: 1922px;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .footer-copyright {
+    font-family: $poppins-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: $footer-text-color;
+    text-decoration: none;
+  }
+
+  a {
+    line-height: 0px;
+    font-family: $poppins-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: $footer-text-color;
+    text-decoration: none;
+  }
+}

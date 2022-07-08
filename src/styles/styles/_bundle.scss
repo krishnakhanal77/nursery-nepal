@@ -1,0 +1,20 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import 'variables';
+@import 'mixins';
+@import 'app';
+
+// Components
+@import 'components/NavCategories';
+@import 'components/Categories';
+@import 'components/Discount';
+@import 'components/Fyp';
+@import 'components/Footer';
+@import 'components/Header';
+@import 'components/slider';
+@import "components/MusicAccessories";
+// @import "components/terms-and-conditions";
+// @import "components/subscriptionModal";
+// @import "components/cookie-banner";
+// @import "components/pageHeader";
+// @import "components/blogs"

@@ -1,0 +1,21 @@
+.topHeader {
+  height: 84px;
+}
+.topHeader__Brand {
+  font-size: 20px;
+  font-weight: 600;
+}
+.topHeader__Location {
+  font-family: $inter-font;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f1f1f !important;
+}
+.topHeader__leftComponent {
+  font-family: $inter-font;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px;
+  margin-left: 30px;
+  color: #1f1f1f !important;
+}
