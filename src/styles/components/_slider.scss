@@ -1,0 +1,37 @@
+.slider{
+  height: 435px;
+  background-color: red;
+}
+.slick-dots {
+  bottom: -30px !important;
+}
+
+.slider-card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  left: 0;
+
+  .card-title {
+    float: left;
+  }
+
+  p {
+    color: #49963c;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    padding: 0;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  Button {
+    width: 9rem;
+    background-color: #49963c;
+    border: none;
+    height: 3rem;
+    border-radius: 0%;
+  }
+}

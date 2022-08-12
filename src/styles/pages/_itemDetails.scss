@@ -1,0 +1,65 @@
+.items {
+  margin: 4rem 2rem 4rem 10rem;
+
+  img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+  }
+}
+
+.item-details {
+  margin-top: 6rem;
+
+  &__title {
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 1.5rem;
+
+    p {
+      font-size: 1.7rem;
+    }
+  }
+
+  &__price {
+    margin-top: 2rem;
+
+    p {
+      font-size: 2rem;
+      font-weight: 600;
+
+      span {
+        font-size: 3rem;
+        font-weight: 700;
+        color: rgb(73, 165, 73);
+      }
+    }
+  }
+  &__qty{
+    display: flex;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 2px;
+    height: 4rem;
+    width: 10rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(236, 236, 236, 0.932);
+    .symbol{
+      font-size: 3rem;
+      cursor: pointer;
+
+    }
+    .val{
+      font-size: 2rem;
+      color: green;
+    }
+
+  }
+}

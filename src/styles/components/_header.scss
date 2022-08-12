@@ -1,0 +1,136 @@
+.navbar {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+
+  .navbar-brand {
+    color: #65a15a !important;
+    font-size: 2.5rem;
+    font-family: $poppins-font;
+  }
+}
+
+.upper-nav-drop {
+  .show {
+    width: 20rem;
+    background: #fff;
+
+    border-radius: 0%;
+
+    a {
+      color: #000 !important;
+      font-size: 1.5rem;
+      opacity: 100%;
+      font-family: $poppins-font;
+      padding: 1rem;
+    }
+  }
+
+  .dropdown-toggle {
+    height: 4rem;
+    width: 16rem;
+    font-size: 1.5rem;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.619) !important;
+    border: 1px solid #00000040 !important;
+  }
+
+  // .dropdown-toggle::after{
+  //   display: none;
+  // }
+  .dropdown-toggle:focus {
+    box-shadow: none !important;
+  }
+
+}
+
+.top-nav-search {
+  width: 40rem !important;
+  height: 4rem;
+  font-size: 1.5rem !important;
+  padding: 0.3rem 1.5rem !important;
+}
+
+.top-nav-search:focus {
+  box-shadow: none !important;
+}
+
+.nav-search-btn {
+  border: none !important;
+  background-color: #65a15a !important;
+  width: 5.5rem;
+  color: #fff !important;
+  font-size: 2rem !important;
+  border-radius: 0% !important;
+  font-family: $poppins-font  !important;
+}
+
+.nav-search-btn:focus {
+  box-shadow: none !important;
+}
+
+.logo-links{
+  a{
+    font-size: 24px;
+    color: #65a15a;
+    text-decoration: none;
+    margin-left: 1rem;
+    span{
+      font-size: 16px;
+    }
+  }
+}
+
+//lower navigation bar 
+.lower-navbar {
+  margin-top: 1rem;
+  background: #f3f3f3;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.lower-nav-dropdown {
+  .dropdown-toggle {
+    height: 5rem;
+    width: 20rem;
+    font-size: 2rem;
+    background-color: #65a15a !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0%;
+  }
+  .dropdown-toggle:focus{
+    box-shadow: none !important;
+  }
+  .show {
+    width: 20rem;
+    background: #fff;
+
+    border-radius: 0%;
+
+    a {
+      color: #000 !important;
+      font-size: 1.5rem;
+      opacity: 100%;
+      font-family: $poppins-font;
+      padding: 1rem;
+    }
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+}
+
+.lower-nav-items {
+  display: flex;
+  justify-content: center;
+
+  li {
+    font-size: 1.5rem;
+    margin: 1rem 0 0 3rem;
+    font-family: $poppins-font;
+  }
+}

@@ -1,0 +1,198 @@
+.homepage-hero {
+  padding-top: 2rem;
+}
+
+
+//upper banners 
+.banners {
+  margin: 7rem 0;
+}
+
+.banner {
+  background-image: url('../../../public/plant-banner1.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    margin-left: 3rem;
+
+    h6 {
+      color: #65a15a;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 0 0 5px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin-bottom: 12px;
+      font-size: 26px;
+      line-height: 32px;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 22px;
+      color: #666;
+    }
+
+    .btn {
+      border: 1px solid #65a15a;
+      color: #fff;
+      background-color: #65a15a;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border-radius: 0%;
+      font-size: 16px;
+      font-weight: 700;
+      width: 13rem;
+    }
+
+  }
+
+
+}
+
+//lower banner 
+
+.banner2 {
+  background-image: url('../../../public/banner-home-3.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 0;
+}
+
+.full-banner {
+  margin-top: 1.7rem;
+  background-image: url('../../../public/home-full-banner.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    text-align: center;
+
+    h1 {
+      font-size: 34px;
+      line-height: 32px;
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-family: $poppins-font;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 22px;
+      color: #666;
+      margin-bottom: 1rem;
+      font-family: $poppins-font;
+    }
+
+    .price {
+      font-weight: 600;
+      font-size: 16px;
+      color: #888;
+      line-height: 28px;
+      letter-spacing: -0.05em;
+      margin-bottom: 22px;
+      font-family: $inter-font;
+
+      span {
+        font-size: 30px;
+        color: #65a15a;
+        font-weight: 700;
+      }
+    }
+
+    .buttons {
+      .btn {
+        border: 1px solid #65a15a;
+        color: #fff;
+        background-color: #65a15a;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 0%;
+        font-size: 12px;
+        font-weight: 700;
+        margin-right: 4rem;
+      }
+    }
+  }
+}
+
+
+
+//cards 
+.product {
+  padding: 1rem !important;
+  border: none !important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 40rem;
+  margin-top: 2rem;
+  border: 1px solid #65a15a1c !important;
+
+  p {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 1rem 0 0 0;
+
+    span {
+      font-weight: 400;
+      font-size: 14px;
+      text-decoration: line-through;
+      color: #888;
+    }
+  }
+
+  .rating {
+    font-size: 16px;
+    color: #65a15a;
+
+    span {
+      font-size: 24px;
+      color: gold;
+      margin-right: 1rem;
+    }
+  }
+
+  .cart {
+    float: right;
+    margin-top: -3.7rem;
+    font-size: 24px;
+    color: #000;
+
+  }
+
+  &__card {
+    width: 20rem !important;
+    margin: 1.5rem 1rem;
+  }
+}
+
+
+.product:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+
+}
